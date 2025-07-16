@@ -1,7 +1,7 @@
 {
-  "name": "react-easy-edit",
-  "version": "2.0.0",
-  "description": "A react library for inline editing components",
+  "name": "react-easy-edit-patched",
+  "version": "2.0.1",
+  "description": "A react library for inline editing components (patched for React 19 compatibility)",
   "keywords": [
     "content editable",
     "contenteditable",
@@ -11,6 +11,7 @@
     "editable text",
     "easy edit",
     "react-easy-edit",
+    "react-easy-edit-patched",
     "react easy edit",
     "inline",
     "inline edit",
@@ -19,26 +20,26 @@
     "reactjs",
     "text"
   ],
-  "author": "George Artemiou <giorgosart@hotmail.com>",
+  "author": "George Artemiou <giorgosart@hotmail.com> (original), Anonymous (patch)",
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "rollup -c -o build/react-easy-edit.min.js",
     "test": "react-scripts test",
     "coverage": "react-scripts test --coverage --watchAll=false",
-    "prepublish": "yarn build"
+    "prepublish": "npm run build"
   },
   "main": "build/react-easy-edit.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/giorgosart/react-easy-edit"
+    "url": "git+https://github.com/spacecat/react-easy-edit"
   },
   "bugs": {
-    "url": "https://github.com/giorgosart/react-easy-edit/issues"
+    "url": "https://github.com/spacecat/react-easy-edit/issues"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0"
   },
   "eslintConfig": {
     "extends": "react-app"
