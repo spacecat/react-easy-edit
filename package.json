@@ -32,7 +32,7 @@
   "main": "build/react-easy-edit.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spacecat/react-easy-edit"
+    "url": "git+https://github.com/spacecat/react-easy-edit.git"
   },
   "bugs": {
     "url": "https://github.com/spacecat/react-easy-edit/issues"
