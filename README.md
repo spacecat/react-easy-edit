@@ -6,6 +6,8 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=giorgosart_react-easy-edit&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=giorgosart_react-easy-edit)
 [![DeepScan grade](https://deepscan.io/api/teams/6030/projects/7886/branches/87202/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=6030&pid=7886&bid=87202)
 
+🚀 **React 19 Compatible!** This is a patched version of the original react-easy-edit library that provides full compatibility with React 19 while maintaining all the original functionality. No breaking changes - just updated peer dependencies to support both React 18 and React 19.
+
 ![](https://i.imgur.com/vwqcqeD.gif)
 
 # react-easy-edit
