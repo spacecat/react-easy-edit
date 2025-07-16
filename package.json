@@ -1,6 +1,6 @@
 {
   "name": "react-easy-edit-patched",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A react library for inline editing components (patched for React 19 compatibility)",
   "keywords": [
     "content editable",
